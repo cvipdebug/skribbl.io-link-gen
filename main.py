@@ -29,7 +29,7 @@ banner = (gratient.purple("""
 """))
 
 print(banner)
-id = input(purple("Are you readt (y/n)"))
+id = input(purple("Are you ready (y/n)"))
 if id == "y":
     system("cls")
     print(banner)
