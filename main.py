@@ -45,6 +45,7 @@ if id == "y":
             print(gratient.green("Working Link : " + url))
             link = open("links.txt", "a")
             link.write(url + "\n")
+            link.close()
         if r34.status_code == 404:
             non_working += 1
             system("title Skribbl.io Link Gen Working: " + str(working) + " Number Gen: " + str(num) + " Not Working Links: " + str(non_working))
