@@ -41,7 +41,7 @@ if id == "y":
         if r34.status_code == 200:
             working += 1
             num += 1
-            system("title Skribbl.io Link Gen Working: " + str(working) + " Number Gen: " + str(num))
+            system("title Skribbl.io Link Gen Working: " + str(working) + " Number Gen: " + str(num) + " Not Working Links: " + str(non_working))
             print(gratient.green("Working Link : " + url))
             link = open("links.txt", "a")
             link.write(f"{url}\n")
